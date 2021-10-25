@@ -4,7 +4,7 @@ CRUD SPA built with a Laravel API and react modules for the UI
 >php 7.4
 
 ## Setup
->Open project directory in system or editor terminal $ cd proj-main
+>Open project directory in system or editor terminal $ cd PROJECT_NAME
 
 >Start Project >> $php artisan serve
 
