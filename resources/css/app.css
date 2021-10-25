@@ -1,0 +1,48 @@
+   /*  1.- NORMALISE
+        -------------------------------------------------- */
+        * { box-sizing: border-box; }
+        html { width: 100vw; font-size: 62.5%; overflow-x: hidden; }
+        body { width: 100%; overflow-x: hidden; color: #4b4b4b; font-family: 'Oswald', Arial, Helvetica, sans-serif, Arial, sans-serif; font-size: 1.6rem; }
+        
+        h1, h2, h3, h4, h5, h6, p, a, ul, li, td, th, input { margin: 0; padding: 0; }
+        h1, h2, h3, h4, h5, h6 { color: #004b8d; text-transform: uppercase; }
+        h1 { margin-bottom: 1rem; font-size: 2.5rem; font-weight: 700; }
+        h2 { font-size: 2rem; font-weight: 700; }
+        h3 { font-size: 1.8rem; font-weight:700; }
+        p, a, li, td, th { font-size: 1.6rem; }
+        a:hover { text-decoration: none; }
+        input { outline: none; }
+        
+        ul { font-size: 0; }
+        ul li { list-style: none; }
+        
+        button { margin: 0; padding: 0; background: transparent; border: none; outline: none; }
+        
+        
+        @media (max-width: 991px) {
+            h1 { font-size: 2.4rem; }
+            h2 { font-size: 1.8rem; }
+            h3 { font-size: 1.6rem; }
+            p, a, li, td, th { font-size: 1.4rem; }
+        }
+        
+            .flexbox { display : flex; display : -webkit-flex }
+            .flexbox.left { justify-content: start; }
+            .flexbox.right { justify-content: end; }
+            .flexbox.center { justify-content: center; }
+            .flexbox.between { justify-content: space-between; }
+            .flexbox.top { align-items: start; }
+            .flexbox.bottom { align-items: end; }
+            .flexbox.middle { align-items: center; }
+            .flexbox.wrap {flex-wrap: wrap;}
+        
+            .title { text-align : center; }
+            .section { max-width : 100%; }
+            .section .container { width : 80%; max-width : 84rem; height : 60vh; margin-top : 5rem }
+            .orders { width : 100%}
+            .order {width : 100%; padding : 1.5rem 0}   
+            .order:not(:last-child){ border-bottom : 1px solid #222}
+            .order .tab_body h4:first-of-type { width : 50%}
+            .currency {margin-left : 1rem; font-size : 1.2rem}
+            .tab_header, .tab_body  {width : 100%; padding : 1rem;}
+            #ordersSection .tab.active .tab_body {display : block; }
